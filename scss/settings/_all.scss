@@ -1,0 +1,9 @@
+@use 'sass:math';
+
+// grid
+$columns: 12;
+$base-column-width: math.div(100%, 12);
+
+$spacer: 1em;
+$border-radius: 0.25em;
+$global-max-width: 60em;

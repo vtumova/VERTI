@@ -1,0 +1,21 @@
+.btn {
+
+    display: inline-flex;
+    padding: 0.5 * $spacer $spacer;
+    border-radius: $border-radius;
+    text-decoration: none;
+    font-weight: 800;
+    gap: 0.5 * $spacer;
+    justify-content: space-between;
+
+    &-primary {
+        color: $btn-primary-color;
+        background-color: $btn-primary-bg;
+    }
+
+    &-secondary {
+        color: $btn-secondary-color;
+        background-color: $btn-secondary-bg;
+    }
+
+}
