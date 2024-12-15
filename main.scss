@@ -1,15 +1,15 @@
-@import "scss/settings/all";
-@import "scss/settings/colors";
-@import "scss/settings/fonts";
-@import "scss/settings/icons";
-@import "scss/settings/media";
+@use "scss/settings/all";
+@use "scss/settings/colors";
+@use "scss/settings/fonts";
+@use "scss/settings/icons";
+@use "scss/settings/media";
 
-@import "scss/generic/reset";
-@import "scss/generic/grid";
-@import "scss/generic/btn";
-@import "scss/generic/global";
+@use "scss/generic/reset";
+@use "scss/generic/grid";
+@use "scss/generic/btn";
+@use "scss/generic/global";
 
-@import "scss/elements/base";
-@import "scss/elements/footer";
-@import "scss/elements/header";
-@import "scss/elements/intro";
+@use "scss/elements/base";
+@use "scss/elements/footer";
+@use "scss/elements/header";
+@use "scss/elements/intro";

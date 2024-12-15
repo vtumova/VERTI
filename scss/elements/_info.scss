@@ -1,0 +1,55 @@
+@include tablet {
+    .info {
+    flex-direction: column;
+}
+}
+
+
+.info {
+    max-width: 1200px; /* Nastaví šířku kontejneru */
+    margin: 0 auto; /* Vycentruje kontejner */
+    background-color: white;
+    padding: 2em;
+    
+}
+
+.row {
+    display: flex; /* Nastaví flexbox na řádek */
+    gap: 1.5rem; /* Nastaví mezery mezi sloupci */
+    background-color: #f9f9f9;
+}
+
+/* Styl pro jednotlivé sloupce */
+.col-4 {
+    flex: 1; /* Nastaví rovnoměrnou šířku sloupců */
+    padding: 1rem; /* Přidá vnitřní odsazení */
+    background-color: #f9f9f9; /* Barva pozadí */
+    border-radius: 10px; /* Zaoblené rohy */
+    text-align: center; /* Zarovnání textu na střed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Jemný stín */
+}
+
+
+/* Styl pro nadpisy */
+.col-4 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem; /* Mezery mezi nadpisem a textem */
+}
+
+/* Styl pro podnadpisy (první <p>) */
+.col-4 p:first-of-type {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem; /* Mezera pod podnadpisem */
+}
+
+/* Styl pro běžné odstavce */
+.col-4 p:not(:first-of-type) {
+    font-size: 0.9rem;
+    line-height: 1.6; /* Nastaví řádkování textu */
+}
+
+
+
+
+    

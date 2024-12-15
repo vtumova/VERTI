@@ -6,4 +6,9 @@
 
 body {
     font-family: $base-font;
+
+    @include tablet {
+            
+    }
 }
+

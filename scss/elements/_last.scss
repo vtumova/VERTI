@@ -1,0 +1,88 @@
+.last {
+
+    // Pro celou sekci
+    .container {
+        padding: 2em;
+    }
+
+    .row {
+        display: flex;
+        gap: 2em; // Mezera mezi sloupci
+    }
+
+
+
+    .col-4 {
+        flex: 0 0 30%; // Menší šířka prvního sloupce
+        text-align: left;
+
+
+
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+
+
+
+        img {
+            display: inline-block;
+            width: 48%; // Polovina šířky sloupce
+            margin: 1%; // Stejná mezera mezi obrázky
+            border-radius: 0.5em; // Zaoblení rohů
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5em;
+            text-align: center;
+        }
+    }
+
+    .col-8 {
+        flex: 0 0 65%; // Větší šířka druhého sloupce
+        text-align: left;
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        p {
+            margin-bottom: 1em;
+
+            a {
+                color: blue;
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+    }
+}
+
+.continue {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: darkblue;
+    }
+}
